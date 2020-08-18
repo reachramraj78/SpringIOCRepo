@@ -4,12 +4,12 @@ public class NetworkTest {
 
 	public static void main(String[] args) {
 
-		// source code changes are made every time
-//		//every new keyword
+//		 source code changes are made every time
+//	     every new keyword
 //		Network idea = new IdeaNetwork();
 //		idea.calls();
-		
-		//container
+
+		// container
 		VidvaanContainer container = new VidvaanContainer();
 		
 		
