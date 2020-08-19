@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="
+                http://www.springframework.org/schema/beans
+                http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<bean id="addr" class="com.vidvaan.student.bean.Address">
+		<property name="street" value="srnagar" />
+		<property name="city" value="hyderabad" />
+	</bean>
+
+	<bean id="student" class="com.vidvaan.student.bean.Student">
+		<property name="sid" value="100" />
+		<property name="name" value="Sekhar" />
+		<property name="address" ref="addr" />
+	</bean>
+
+
+	<bean id="student2" class="com.vidvaan.student.bean.Student">
+		<property name="sid" value="101" />
+		<property name="name" value="Anil" />
+		<property name="address" ref="addr"></property>
+	</bean>
+</beans>
